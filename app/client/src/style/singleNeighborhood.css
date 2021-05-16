@@ -1,0 +1,16 @@
+body {
+    font-family: 'Lato', sans-serif;
+    background-image: url("https://www.transparenttextures.com/patterns/grunge-wall.png");
+}
+
+
+.stats {
+    padding-top: 7%;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+.stats1-title {
+    font-family: 'Merriweather', sans-serif;
+    padding-bottom: 2%;
+}

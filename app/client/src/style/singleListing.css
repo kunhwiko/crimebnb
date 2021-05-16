@@ -1,0 +1,14 @@
+.map {
+  min-height: 40vh!important;
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+
+.summary {
+  max-width: 50%;
+}
+
+.rating {
+  height: 32;
+  width: 32;
+}

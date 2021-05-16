@@ -1,0 +1,124 @@
+.listings-container {
+    display: flex;
+    flex-flow: column wrap;
+    margin-top: 10px;
+  }
+  
+  .listings-container .listing {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    padding: 0 10px;
+  }
+
+  .listings-container .listingResults { 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    padding: 0px 10px;
+    margin-bottom: 60px;
+  }
+
+  .map { 
+    max-height: 70vh;
+    max-width: 90vw;
+    margin-left: 5vw; 
+  }
+
+  .container-fluid { 
+    margin-bottom: -180px !important;
+
+  }
+
+  .h5 { 
+    padding: 20px 0px;
+  }
+
+  .filteredlistings-container .jumbotron-top, .btn-container { 
+    background-image: url("https://www.transparenttextures.com/patterns/grunge-wall.png");
+  }
+
+  .filteredlistings-container .jumbotron-bottom { 
+    background: whitesmoke;
+  }
+
+  .btn-container { 
+    padding-bottom: 30px;
+  }
+
+  .filteredlistings-container .jumbotron-top { 
+    padding: 50px 30px 30px 30px;
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+  }
+
+  .boxLeft, .boxCenter, .boxRight { 
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0px 5px;
+    background: white;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 1px 1px #88888c;
+  }
+  
+  .listingResults { 
+    background: white;
+    margin: 0px 20px;
+    padding: 80px !important;
+    border-radius: 10px;
+    box-shadow: 1px 1px #88888c;
+    font-weight: 100 !important;
+    width: 90%;
+    max-width: 900px;
+    transition: 0.5s ease;
+  }
+
+  .listingResults:hover { 
+    cursor: pointer;
+    transform: scale(1.025);
+    box-shadow: 3px 3px #88888c;
+  }
+
+  .listings-container { 
+    display: flex;
+    align-content: center;
+    width: 100%;
+  }
+
+  .stats-top strong { 
+    font-weight: 700;
+    font-size: 20px !important;
+  }
+
+  .stats-top { 
+    font-size: 20px !important;
+  }
+
+  .stats-bottom {
+    margin-top: 5px;
+    color: gray;
+  }
+
+  .dropdown-container { 
+    margin-bottom: 10px;
+  }
+
+  i { 
+    color: #E0CD67;
+  }
+
+  @media only screen and (max-width: 800px) {
+    .filteredlistings-container .jumbotron-top {
+      flex-direction: column;
+    }
+    .boxCenter, .boxRight { 
+      margin-top: 20px;
+    }
+  }

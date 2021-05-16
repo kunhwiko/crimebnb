@@ -1,0 +1,30 @@
+
+
+@media (min-width: 768px) {
+    .lead {
+        font-size: 19px;
+    }    
+}
+
+textarea {
+    resize: vertical;
+}
+
+.box {
+    padding: 20px;
+    margin-bottom: 30px;
+    background-color: #fff;
+    text-align: center;
+}
+
+.num {
+    font-size: 28px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.title {
+    font-size: 18px;
+    font-weight: 300;
+}
+

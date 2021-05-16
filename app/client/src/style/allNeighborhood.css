@@ -1,0 +1,128 @@
+.listings-container {
+    display: flex;
+    flex-flow: column wrap;
+    margin-top: 10px;
+  }
+  
+  .listings-container .listing, .listings-container .listingResults {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    height: 40px;
+    padding: 0 10px;
+  }
+  
+  .listing .header, .listingResults .name, .listingResults .price {
+    flex: 1 0 25%;
+  }
+
+  .h5 {
+
+    flex-flow : row wrap;
+  }
+
+  .headerCrime {
+    position: relative;
+    flex-flow : row wrap;
+    flex: 1 0 25%;
+  }
+
+  .headerVictim {
+      position : relative;
+      left : 800px;
+      top : -20px;
+      flex: 1 0 25%;
+      
+  }
+
+  .headerVictimTwo{
+      position : relative;
+      left : 800px;
+      top : -130px;
+      
+  }
+
+  .dropdown-container-vic {
+    position : relative;
+    left : 800px;
+    top : -130px;
+
+  }
+
+  .victim-submission-btn{
+    position : relative;
+    left : 800px;
+    top : -130px;
+  }
+
+
+
+
+  .accomodationTextOne {
+    position : relative;
+  }
+
+  .accomodationTextThree, .input-container-three{
+    position : relative;
+    left : 400px;
+    top : -112px;
+  }
+
+  .h5-4, .input-container-4{
+    position : relative;
+    left : 400px;
+    top : -112px;
+  }
+
+  .h5-5, .input-container-5{
+      position : relative;
+      left : 800px;
+      top : -220px;
+  }
+
+  .h5-6, .dropdown-container-6{
+    position : relative;
+    top : -218px;
+}
+
+.h5-7, .dropdown-container-7{
+    position : relative;
+    top : -266px;
+    left : 150px;
+}
+
+.h5-8, .dropdown-container-8{
+    position : relative;
+    top : -314px;
+    left : 320px;
+}
+
+.h5-9, .dropdown-container-9{
+    position : relative;
+    top : -362px;
+    left : 480px;
+}
+.h5-10, .dropdown-container-10{
+    position : relative;
+    top : -410px;
+    left : 615px;
+}
+.h5-11, .dropdown-container-11{
+    position : relative;
+    top : -457px;
+    left : 780px;
+}
+.h5-12, .dropdown-container-12{
+    position : relative;
+    top : -505px;
+    left : 920px;
+}
+.submit-btn-accommo{
+    position : relative;
+    top : -500px;
+
+}
+
+.jumbotron {
+  height : 400px;
+}
