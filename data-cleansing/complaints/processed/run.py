@@ -342,10 +342,10 @@ if __name__ == "__main__":
     from sqlalchemy import create_engine
 
     raw_complaint_data = Path(
-        "./data/complaints/raw/NYPD_Complaint_Data_Historic.csv"
+        "../raw/NYPD_Complaint_Data_Historic.csv"
     ).abspath()
     processed_complaint_data = Path(
-        "./data/complaints/processed/complaints.parquet"
+        "./complaints.parquet"
     ).abspath()
 
     username = os.environ.get("DB_USERNAME")

@@ -1,10 +1,7 @@
-.PHONE: clean build run
-
 
 help:
 	@echo "make help"
 	@echo "make build -- install dependencies for local development."
-	@echo "make run -- run the db, server, and client using docker"
 
 
 build:
