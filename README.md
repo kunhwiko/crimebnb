@@ -21,7 +21,7 @@ Download the `demo.mp4` file to see a demo of this project.
 -----
 We are running our MySQL database on an AWS RDS instance. For security reasons, we help you to test the application here in a local environment.   
 
-#### Data Parsing: Listings
+### Data Parsing: Listings
 
 Create a database named 'crimebnb'. We recommend using this name due to configuration reasons. Access the `data-cleansing/airbnb/processed` directory and look for `listing.sql`. Use this to create tables in your local MySQL database. 
 
@@ -35,7 +35,7 @@ Check to see if your database is properly populated.
 
 <br />
 
-#### Data Parsing: Crimes 
+### Data Parsing: Crimes 
 
 Now locate the `data-cleansing/complaints/processed` directory. Use `crime.sql` to populate the MySQL database. 
 
@@ -47,7 +47,7 @@ To properly execute run.py on the terminal, make sure you have the username, pas
 
 <br />
 
-#### Program Execution 
+### Program Execution 
 
 We have most of the useful commands in our Makefile. The first time you run the app, or after dependencies have changed, run: 
 
