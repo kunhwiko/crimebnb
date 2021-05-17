@@ -15,7 +15,7 @@ Our application aims to fill this gap by integrating crime data with that of Air
 
 ### Demo
 -----
-
+[Watch the demo here](https://github.com/kunhwiko/crimebnb/demo.mp4)
 
 ### Setup
 -----
