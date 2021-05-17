@@ -14,6 +14,7 @@ Our application aims to fill this gap by integrating crime data with that of Air
 
 ## Demo
 View the demo [here](https://drive.google.com/file/d/1o85Ea7G5DeC6R5jvyxdR3gWxtedQ2nAD/view?usp=sharing)
+
 If the link is unavailable, download the `demo.mp4` file to view our short 3 minute demo!
 
 ## Setup
@@ -31,8 +32,6 @@ Execute `csv_to_sql.py` either on your terminal or through an IDE. This will gen
 
 Check to see if your database is properly populated. 
 
-<br />
-
 ### Data Parsing: Crimes 
 
 Now locate the `data-cleansing/complaints/processed` directory. Use `crime.sql` to populate the MySQL database. 
@@ -42,8 +41,6 @@ Due to an immensive amount of crimes data, CSV imports or INSERT INTO scripts ar
 Notice that for this process, we require the user to have the crimes data locally. We have deleted the csv file due to the file size. Please download the file [here](https://www.kaggle.com/mrmorj/new-york-city-police-crime-data-historic/code) into `data-cleansing/compliants/raw` with the name as `NYPD_Compliant_Data_Historic.csv`.  
 
 To properly execute run.py on the terminal, make sure you have the username, password, host, and database name information of your MySQL database. Here we use os.environ to get the information as environment variables. You could alternatively fill this in manually. 
-
-<br />
 
 ### Program Execution 
 
