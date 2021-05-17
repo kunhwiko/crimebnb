@@ -1,27 +1,27 @@
 # Crimebnb
 
-### Authors
+## Authors
 -----
 - [Kun Hwi Ko](https://github.com/kunhwiko)
 - [Tommy Drenis](https://github.com/tdrenis)
 - [Zach Duey](https://github.com/zduey)
 - [Sungbum Hong](https://github.com/peter0135)
 
-### Description 
+## Description 
 -----
 Services like Airbnb are becoming increasingly popular when finding short-term rentals. Although Airbnb provides users with advanced search functionality for finding places to stay, it lacks the ability to filter results based on safety of the neighborhood where the rental is located. 
 
 Our application aims to fill this gap by integrating crime data with that of Airbnb listings in New York City. This allows us to view crime trends near individual listings and the entire neighborhood in general. This will enable users of Airbnb to better understand the surrounding area in which a listing is located and the safety of this location for their visit. 
 
-### Demo
+## Demo
 -----
-[Watch the demo here](https://github.com/kunhwiko/crimebnb/demo.mp4)
+Download the `demo.mp4` file to see a demo of this project. 
 
-### Setup
+## Setup
 -----
 We are running our MySQL database on an AWS RDS instance. For security reasons, we help you to test the application here in a local environment.   
 
-##### Data Parsing: Listings
+#### Data Parsing: Listings
 
 Create a database named 'crimebnb'. We recommend using this name due to configuration reasons. Access the `data-cleansing/airbnb/processed` directory and look for `listing.sql`. Use this to create tables in your local MySQL database. 
 
@@ -33,8 +33,9 @@ Execute `csv_to_sql.py` either on your terminal or through an IDE. This will gen
 
 Check to see if your database is properly populated. 
 
+<br />
 
-##### Data Parsing: Crimes 
+#### Data Parsing: Crimes 
 
 Now locate the `data-cleansing/complaints/processed` directory. Use `crime.sql` to populate the MySQL database. 
 
@@ -44,8 +45,9 @@ Notice that for this process, we require the user to have the crimes data locall
 
 To properly execute run.py on the terminal, make sure you have the username, password, host, and database name information of your MySQL database. Here we use os.environ to get the information as environment variables. You could alternatively fill this in manually. 
 
+<br />
 
-##### Program Execution 
+#### Program Execution 
 
 We have most of the useful commands in our Makefile. The first time you run the app, or after dependencies have changed, run: 
 
