@@ -14,7 +14,7 @@ Our application aims to fill this gap by integrating crime data with that of Air
 
 ## Demo
 <video width="320" height="240" controls>
-  <source src="demo.mp4" type="video/mp4">
+  <source src="https://github.com/kunhwiko/crimebnb/blob/master/report/demo.mp4" type="video/mp4">
 </video>
 
 ## Setup
