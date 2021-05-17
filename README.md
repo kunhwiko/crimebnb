@@ -8,17 +8,14 @@
 - [Sungbum Hong](https://github.com/peter0135)
 
 ## Description 
------
 Services like Airbnb are becoming increasingly popular when finding short-term rentals. Although Airbnb provides users with advanced search functionality for finding places to stay, it lacks the ability to filter results based on safety of the neighborhood where the rental is located. 
 
 Our application aims to fill this gap by integrating crime data with that of Airbnb listings in New York City. This allows us to view crime trends near individual listings and the entire neighborhood in general. This will enable users of Airbnb to better understand the surrounding area in which a listing is located and the safety of this location for their visit. 
 
 ## Demo
------
 Download the `demo.mp4` file to see a demo of this project. 
 
 ## Setup
------
 We are running our MySQL database on an AWS RDS instance. For security reasons, we help you to test the application here in a local environment.   
 
 ### Data Parsing: Listings
