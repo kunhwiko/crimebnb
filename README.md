@@ -1,11 +1,12 @@
-# Group 41: CIS-550 Final Project
+# Crimebnb
 
-## Group Members
-
+### Authors
+-----
+- [Kun Hwi Ko](https://github.com/kunhwiko)
 - [Tommy Drenis](https://github.com/tdrenis)
 - [Zach Duey](https://github.com/zduey)
 - [Sungbum Hong](https://github.com/peter0135)
-- [Kun Hwi Ko](https://github.com/kunhwiko)
+
 
 
 ## Data Parsing: Listings
