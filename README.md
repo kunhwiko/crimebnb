@@ -13,7 +13,9 @@ Services like Airbnb are becoming increasingly popular when finding short-term r
 Our application aims to fill this gap by integrating crime data with that of Airbnb listings in New York City. This allows us to view crime trends near individual listings and the entire neighborhood in general. This will enable users of Airbnb to better understand the surrounding area in which a listing is located and the safety of this location for their visit. 
 
 ## Demo
-Download the `demo.mp4` file to see a demo of this project. 
+<video width="320" height="240" controls>
+  <source src="demo.mp4" type="video/mp4">
+</video>
 
 ## Setup
 We are running our MySQL database on an AWS RDS instance. For security reasons, we help you to test the application here in a local environment.   
