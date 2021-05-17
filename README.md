@@ -1,21 +1,26 @@
 # Crimebnb
 
 ## Authors
------
 - [Kun Hwi Ko](https://github.com/kunhwiko)
 - [Tommy Drenis](https://github.com/tdrenis)
 - [Zach Duey](https://github.com/zduey)
 - [Sungbum Hong](https://github.com/peter0135)
+
+<br />
 
 ## Description 
 Services like Airbnb are becoming increasingly popular when finding short-term rentals. Although Airbnb provides users with advanced search functionality for finding places to stay, it lacks the ability to filter results based on safety of the neighborhood where the rental is located. 
 
 Our application aims to fill this gap by integrating crime data with that of Airbnb listings in New York City. This allows us to view crime trends near individual listings and the entire neighborhood in general. This will enable users of Airbnb to better understand the surrounding area in which a listing is located and the safety of this location for their visit. 
 
+<br />
+
 ## Demo
-View the demo [here](https://drive.google.com/file/d/1o85Ea7G5DeC6R5jvyxdR3gWxtedQ2nAD/view?usp=sharing)
+View the demo [here](https://drive.google.com/file/d/1o85Ea7G5DeC6R5jvyxdR3gWxtedQ2nAD/view?usp=sharing).
 
 If the link is unavailable, download the `demo.mp4` file to view our short 3 minute demo!
+
+<br />
 
 ## Setup
 We are running our MySQL database on an AWS RDS instance. For security reasons, we help you to test the application here in a local environment.   
@@ -32,6 +37,8 @@ Execute `csv_to_sql.py` either on your terminal or through an IDE. This will gen
 
 Check to see if your database is properly populated. 
 
+<br />
+
 ### Data Parsing: Crimes 
 
 Now locate the `data-cleansing/complaints/processed` directory. Use `crime.sql` to populate the MySQL database. 
@@ -41,6 +48,8 @@ Due to an immensive amount of crimes data, CSV imports or INSERT INTO scripts ar
 Notice that for this process, we require the user to have the crimes data locally. We have deleted the csv file due to the file size. Please download the file [here](https://www.kaggle.com/mrmorj/new-york-city-police-crime-data-historic/code) into `data-cleansing/compliants/raw` with the name as `NYPD_Compliant_Data_Historic.csv`.  
 
 To properly execute run.py on the terminal, make sure you have the username, password, host, and database name information of your MySQL database. Here we use os.environ to get the information as environment variables. You could alternatively fill this in manually. 
+
+<br />
 
 ### Program Execution 
 
